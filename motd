@@ -1,0 +1,9 @@
+red='\e[1;31m'
+echo -e $red
+echo "Selamat Datang"
+echo "Welcome to Termux!"
+echo "Search packages:   pkg search <query>"
+echo "Install a package: pkg install <package>"
+echo "Upgrade packages:  pkg upgrade"
+echo "Learn more:        pkg help"
+echo "Moded By  :        Azzar Nuji"
