@@ -1,7 +1,7 @@
 red='\e[1;31m'
 echo -e $red
 pkg update upgrade && pkg install ruby cowsay figlet 
-python2 python2-dev toilet
+pkg install python2 python2-dev toilet
 gem install lolcat
 echo -e $red
 echo "Penghapusan sciprt login"
