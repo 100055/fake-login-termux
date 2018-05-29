@@ -23,7 +23,7 @@ echo "Memindahkan File"
 sleep 2
 echo "√"
 sleep 1
-cd $HOME/Style
+cd $HOME/fake-login-termux
 cp -r bash bash.bashrc motd $PREFIX/etc
 echo -e $red
 echo "Memberikan Hak Akses Ke File"
