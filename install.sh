@@ -1,5 +1,4 @@
-#!/bin/sh
-#!/xbin/sh
+#!/bin/bash
 red='\e[1;31m'
 echo -e $red
 pkg update upgrade && pkg install ruby cowsay figlet 
