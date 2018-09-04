@@ -17,16 +17,20 @@ toilet -f standard -F gay "Termux"
 echo -e $red
 echo "Usernamenya :root"
 echo "Passwordnya :root"
-read -p "Masukkan Username:" user
-read -ers -p "Masukkan Password:" pass
+read -p "Masukkan Username:"
+read -ers -p "Masukkan Password:" input
+user=root
+pass=root
 #kalo mau di edit ganti yang nama root jadi terserah lu
-if [ $pass="root" ] && [ $user="root" ]; then
+if [ $input = $pass ] && [ $input = $user ]; then
   echo -e $red
   echo "Login Berhasil"
   sleep 2
   bash
 else
+  echo ""
   echo "Login Gagal"
+  exit
 fi
 
 
