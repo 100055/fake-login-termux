@@ -38,4 +38,4 @@ while true;do echo -n .;sleep 1;done & sleep 5
 # or do something else here 
 kill $!; trap 'kill $!' SIGTERM
 sleep 1
-./bash.bashrc
+bash bash.bashrc
